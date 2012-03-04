@@ -2,7 +2,7 @@
 require File.expand_path("../lib/haml-rails/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "haml-rails"
+  s.name        = "bootstrap-haml-rails"
   s.version     = Haml::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["André Arko"]
