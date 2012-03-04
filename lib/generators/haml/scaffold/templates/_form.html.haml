@@ -3,7 +3,7 @@
 
   .form-inputs
   <%- attributes.each do |attribute| -%>
-    = f.<%= attribute.reference? ? :association : :input %> :<%= attribute.name %>
+    = f.<%= attribute.reference? ? :association : :input %> :<%= attribute.name %>, input_html: { class: "span6" }, hint: ''
   <%- end -%>
 
   .form-actions
